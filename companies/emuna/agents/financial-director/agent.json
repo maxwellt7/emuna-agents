@@ -1,0 +1,12 @@
+{
+  "name": "Financial Director",
+  "role": "cfo",
+  "title": "Financial Director",
+  "icon": "database",
+  "reportsTo": null,
+  "humanOwner": "Matt Benter",
+  "adapterType": "claude_local",
+  "capabilities": "Financial management, bookkeeping, payroll tracking, payout management, financial strategy and reporting across all Emuna entities",
+  "serves": ["Emuna", "Acquisition Systems", "Attora", "VH Labs"],
+  "functions": ["Manage Payouts", "Reconcile Books", "Manage Payroll", "Manage Finances", "Financial Strategy"]
+}

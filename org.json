@@ -1,0 +1,287 @@
+{
+  "holdingCompany": "Emuna",
+  "description": "Holding company for Acquisition Systems, Attora, and VH Labs",
+  "companies": [
+    {
+      "id": "emuna",
+      "name": "Emuna",
+      "description": "Shared services — finance and investor relations across all entities",
+      "issuePrefix": "EMN",
+      "humans": [
+        {
+          "name": "Maxwell Mayes",
+          "role": "Visionary",
+          "team": "Leadership",
+          "functions": ["Vision", "Big Ideas", "Creative Problem Solving", "Catalyst", "Big Relationships"]
+        },
+        {
+          "name": "Matt Benter",
+          "role": "Integrator",
+          "team": "Leadership",
+          "functions": ["Execute The Vision", "Own the P&L", "Filter & Prioritize Projects", "Drive Processes & Consistency", "Solve Issues & Bottlenecks"]
+        },
+        {
+          "name": "Maxwell Mayes",
+          "role": "Investor Relations",
+          "team": "Investments",
+          "functions": ["LMA", "Create Fundraising Strategy", "Identify Investors", "Close Investors", "Provide Investor Updates"]
+        }
+      ],
+      "agents": [
+        {
+          "id": "financial-director",
+          "name": "Financial Director",
+          "role": "cfo",
+          "team": "Finance",
+          "reportsTo": null,
+          "serves": ["emuna", "asl", "attora", "vh-labs"],
+          "functions": ["Manage Payouts", "Reconcile Books", "Manage Payroll", "Manage Finances", "Financial Strategy"]
+        },
+        {
+          "id": "ir-support-alpha",
+          "name": "IR Support Alpha",
+          "role": "general",
+          "team": "Investments",
+          "reportsTo": null,
+          "humanOwner": "Maxwell Mayes",
+          "serves": ["emuna"],
+          "territory": "Communications & Meetings",
+          "functions": ["Draft Investor Communications", "Prepare Meeting Materials", "Answer Investor Questions", "Manage Follow-Up Sequences", "Schedule & Confirm Meetings"]
+        },
+        {
+          "id": "ir-support-beta",
+          "name": "IR Support Beta",
+          "role": "general",
+          "team": "Investments",
+          "reportsTo": null,
+          "humanOwner": "Maxwell Mayes",
+          "serves": ["emuna"],
+          "territory": "CRM & Data Management",
+          "functions": ["Manage CRM Records", "Compile & Enrich Investor Lists", "Track Deal Pipeline", "Research Prospective Investors", "Produce IR Data Reports"]
+        }
+      ]
+    },
+    {
+      "id": "asl",
+      "name": "Acquisition Systems",
+      "description": "Performance marketing and affiliate network — media buying, creative, tracking, partner management",
+      "issuePrefix": "ASL",
+      "humans": [
+        {
+          "name": "Maxwell Mayes",
+          "role": "Visionary",
+          "team": "Leadership",
+          "functions": ["Vision", "Big Ideas", "Creative Problem Solving", "Catalyst", "Big Relationships"]
+        },
+        {
+          "name": "Matt Benter",
+          "role": "Integrator",
+          "team": "Leadership",
+          "functions": ["Execute The Vision", "Own the P&L", "Filter & Prioritize Projects", "Drive Processes & Consistency", "Solve Issues & Bottlenecks"]
+        },
+        {
+          "name": "Jorge Canga",
+          "role": "Affiliate/Brand Manager",
+          "team": "Partner Relations",
+          "functions": ["Communicate With Brands", "Communicate With Affiliates", "Negotiate Payouts", "Troubleshoot Issues", "A/B Onboarding"]
+        },
+        {
+          "name": "Casey Amundson",
+          "role": "Operations Director",
+          "team": "Operations",
+          "functions": ["LMA Ops Department", "Increase Profit", "Manage Growth Needs & Strategy", "Mitigate Risk", "Offer Validation & Market Readiness"]
+        },
+        {
+          "name": "Casey Amundson",
+          "role": "Media Buyer",
+          "team": "Growth",
+          "functions": ["Launch Ads", "Manage Accounts", "Work With Creative", "Provide Reporting", "Execute Strategy"]
+        },
+        {
+          "name": "Matt Payne",
+          "role": "Tech Director",
+          "team": "Tech",
+          "functions": ["LMA Tech Team", "Outline Projects", "Troubleshoot Projects", "Execute Dev Projects", "Idea New Tech"]
+        }
+      ],
+      "agents": [
+        {
+          "id": "creative-director",
+          "name": "Creative Director",
+          "role": "designer",
+          "team": "Creative",
+          "reportsTo": null,
+          "functions": ["Research & Develop", "Create Angles", "Provide Briefs", "Optimize Creatives", "Work With Brands"]
+        },
+        {
+          "id": "tracking-specialist",
+          "name": "Tracking Specialist",
+          "role": "devops",
+          "team": "Tech",
+          "reportsTo": null,
+          "functions": ["Work With Brands/Affiliates", "Create Tracking Links", "Troubleshoot Tracking", "Work With Boltout", "QA Reporting"]
+        }
+      ]
+    },
+    {
+      "id": "attora",
+      "name": "Attora",
+      "description": "E-commerce revenue activation — SaaS platform, funnels, direct-to-consumer offers",
+      "issuePrefix": "ATR",
+      "humans": [
+        {
+          "name": "Maxwell Mayes",
+          "role": "Visionary",
+          "team": "Leadership",
+          "functions": ["Vision", "Big Ideas", "Creative Problem Solving", "Catalyst", "Big Relationships"]
+        },
+        {
+          "name": "Matt Benter",
+          "role": "Integrator",
+          "team": "Leadership",
+          "functions": ["Execute The Vision", "Own the P&L", "Filter & Prioritize Projects", "Drive Processes & Consistency", "Solve Issues & Bottlenecks"]
+        },
+        {
+          "name": "Sanse",
+          "role": "Video Editor",
+          "team": "Creative",
+          "functions": ["Edit Videos", "Edit Image Ads", "Optimize Videos", "Implement Expansion", "Edit VSL"]
+        },
+        {
+          "name": "Webbs",
+          "role": "Funnel Builder",
+          "team": "Creative",
+          "functions": ["Build Funnels", "Build Automations", "Integrate Customer Support", "Track Stats", "Create Graphics"]
+        }
+      ],
+      "agents": [
+        {
+          "id": "operations-director",
+          "name": "Operations Director",
+          "role": "pm",
+          "team": "Operations",
+          "reportsTo": null,
+          "functions": ["LMA Operations Team", "Write Funnel/Offer Briefs", "Create Launch Strategy", "Create Concepts", "Offer Validation & Market Readiness"]
+        },
+        {
+          "id": "creative-director",
+          "name": "Creative Director",
+          "role": "designer",
+          "team": "Creative",
+          "reportsTo": "operations-director",
+          "functions": ["Research & Develop", "Create Angles", "Provide Briefs", "Optimize Creatives", "Work With Ops Team"]
+        },
+        {
+          "id": "copywriter",
+          "name": "Copywriter",
+          "role": "general",
+          "team": "Growth",
+          "reportsTo": "operations-director",
+          "functions": ["Write VSL", "Write Ads", "Write Emails", "Write LPs", "CRO"]
+        },
+        {
+          "id": "quality-control",
+          "name": "Quality Control",
+          "role": "qa",
+          "team": "Creative",
+          "reportsTo": "creative-director",
+          "functions": ["Review Videos", "Review Statics", "Report/Edit Stats", "Manage Project Deadlines", "Hit Deadlines"]
+        }
+      ]
+    },
+    {
+      "id": "vh-labs",
+      "name": "VH Labs",
+      "description": "Agency and fulfillment — client growth management, marketing services, creative production",
+      "issuePrefix": "VHL",
+      "humans": [
+        {
+          "name": "Maxwell Mayes",
+          "role": "Visionary / Sales Manager",
+          "team": "Leadership",
+          "functions": ["Vision", "Big Ideas", "Creative Problem Solving", "Catalyst", "Big Relationships"]
+        },
+        {
+          "name": "Matt Benter",
+          "role": "Integrator",
+          "team": "Leadership",
+          "functions": ["Execute The Vision", "Own the P&L", "Filter & Prioritize Projects", "Drive Processes & Consistency", "Solve Issues & Bottlenecks"]
+        },
+        {
+          "name": "Casey Amundson",
+          "role": "Media Buyer / Creative Director / Graphic Designer",
+          "team": "Growth",
+          "functions": ["Launch Ads", "Manage Accounts", "Work With Creative", "Provide Reporting", "Execute Strategy"]
+        },
+        {
+          "name": "Matt Payne",
+          "role": "Tech Director",
+          "team": "Tech",
+          "functions": ["LMA Tech Team", "Outline Projects", "Troubleshoot Projects", "Execute Dev Projects", "Idea New Tech"]
+        },
+        {
+          "name": "Sanse",
+          "role": "Video Editor",
+          "team": "Creative (Internal)",
+          "functions": ["Follow Briefs", "Plug & Build", "Quality Control Videos", "Edit Videos", "Execute Expansion"]
+        },
+        {
+          "name": "John Webbs",
+          "role": "Funnel Builder",
+          "team": "Creative",
+          "functions": ["Build Funnels", "Build Automations", "Integrate Customer Support", "Track Stats", "Create Graphics"]
+        }
+      ],
+      "agents": [
+        {
+          "id": "marketing-manager",
+          "name": "Marketing Manager",
+          "role": "cmo",
+          "team": "Growth",
+          "reportsTo": null,
+          "functions": ["LMA Marketing Team", "Create Campaigns", "Monitor Performance", "Provide Reporting", "Optimize Growth Strategy"]
+        },
+        {
+          "id": "creative-director",
+          "name": "Creative Director",
+          "role": "designer",
+          "team": "Creative",
+          "reportsTo": "marketing-manager",
+          "functions": ["Research & Develop", "Create Creative Briefs", "Work With Influencers", "Track Creative Reporting", "Manage Creative Expansion"]
+        },
+        {
+          "id": "copywriter",
+          "name": "Copywriter",
+          "role": "general",
+          "team": "Fulfillment",
+          "reportsTo": "marketing-manager",
+          "functions": ["Write Landing Page Copy", "Write Email Copy", "Write VSL Copy", "Write Ad Copy", "Perform CRO"]
+        },
+        {
+          "id": "developer",
+          "name": "Developer",
+          "role": "engineer",
+          "team": "Tech",
+          "reportsTo": null,
+          "functions": ["Execute Dev Strategy", "Troubleshoot Bugs", "Answer Tech FAQs", "Build Enhancements", "Build API Integrations"]
+        },
+        {
+          "id": "customer-service",
+          "name": "Customer Service",
+          "role": "general",
+          "team": "Fulfillment",
+          "reportsTo": null,
+          "functions": ["Manage Customer Tickets", "Respond To Customers", "Update FAQ", "Create CS Processes", "Manage Client Payments"]
+        },
+        {
+          "id": "backend-marketer",
+          "name": "Backend Marketer",
+          "role": "general",
+          "team": "Fulfillment",
+          "reportsTo": "marketing-manager",
+          "functions": ["Follow Growth Strategy", "Map Out Backend Flows", "Provide Themes for Flows", "Work With Creative/Copy", "Identify Campaigns"]
+        }
+      ]
+    }
+  ]
+}

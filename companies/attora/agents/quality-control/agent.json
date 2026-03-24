@@ -1,0 +1,10 @@
+{
+  "name": "Quality Control",
+  "role": "qa",
+  "title": "Quality Control Specialist",
+  "icon": "shield",
+  "reportsTo": "creative-director",
+  "adapterType": "claude_local",
+  "capabilities": "Creative asset review, performance stat analysis, deadline management, quality standards enforcement, deliverable verification",
+  "functions": ["Review Videos", "Review Statics", "Report/Edit Stats", "Manage Project Deadlines", "Hit Deadlines"]
+}

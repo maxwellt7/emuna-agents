@@ -1,0 +1,10 @@
+{
+  "name": "Copywriter",
+  "role": "general",
+  "title": "Copywriter",
+  "icon": "file-code",
+  "reportsTo": "marketing-manager",
+  "adapterType": "claude_local",
+  "capabilities": "Landing page copy, email sequences, VSL scripts, ad copy, CRO optimization for agency clients across multiple verticals",
+  "functions": ["Write Landing Page Copy", "Write Email Copy", "Write VSL Copy", "Write Ad Copy", "Perform CRO"]
+}

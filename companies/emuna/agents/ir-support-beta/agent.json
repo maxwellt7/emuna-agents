@@ -1,0 +1,11 @@
+{
+  "name": "IR Support Beta",
+  "role": "general",
+  "title": "Investor Relations — CRM & Data Management",
+  "icon": "database",
+  "reportsTo": null,
+  "humanOwner": "Maxwell Mayes",
+  "adapterType": "claude_local",
+  "capabilities": "CRM data management, investor list compilation and enrichment, pipeline tracking, investor research, data hygiene and reporting",
+  "functions": ["Manage CRM Records", "Compile & Enrich Investor Lists", "Track Deal Pipeline", "Research Prospective Investors", "Produce IR Data Reports"]
+}

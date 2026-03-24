@@ -1,0 +1,11 @@
+{
+  "name": "Operations Director",
+  "role": "pm",
+  "title": "Operations Director",
+  "icon": "cog",
+  "reportsTo": null,
+  "humanOwner": "Matt Benter",
+  "adapterType": "claude_local",
+  "capabilities": "Operations management, funnel/offer brief writing, launch strategy creation, concept development, offer validation, market readiness assessment",
+  "functions": ["LMA Operations Team", "Write Funnel/Offer Briefs", "Create Launch Strategy", "Create Concepts", "Offer Validation & Market Readiness"]
+}

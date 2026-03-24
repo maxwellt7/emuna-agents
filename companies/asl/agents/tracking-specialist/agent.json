@@ -1,0 +1,11 @@
+{
+  "name": "Tracking Specialist",
+  "role": "devops",
+  "title": "Tracking Specialist",
+  "icon": "target",
+  "reportsTo": null,
+  "humanOwner": "Matt Payne",
+  "adapterType": "claude_local",
+  "capabilities": "Affiliate tracking setup, tracking link creation, conversion tracking troubleshooting, Boltout integration, QA reporting, cross-platform tracking verification",
+  "functions": ["Work With Brands/Affiliates", "Create Tracking Links", "Troubleshoot Tracking", "Work With Boltout", "QA Reporting"]
+}

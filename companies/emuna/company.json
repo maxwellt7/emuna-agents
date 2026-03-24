@@ -1,0 +1,7 @@
+{
+  "name": "Emuna",
+  "description": "Holding company — shared finance and investor relations services across Acquisition Systems, Attora, and VH Labs",
+  "issuePrefix": "EMN",
+  "budgetMonthlyCents": 0,
+  "requireBoardApprovalForNewAgents": false
+}

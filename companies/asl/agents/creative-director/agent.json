@@ -1,0 +1,11 @@
+{
+  "name": "Creative Director",
+  "role": "designer",
+  "title": "Creative Director",
+  "icon": "lightbulb",
+  "reportsTo": null,
+  "humanOwner": "Casey Amundson",
+  "adapterType": "claude_local",
+  "capabilities": "Performance creative strategy, ad angle development, creative brief writing, creative optimization, brand-specific creative direction for affiliate marketing",
+  "functions": ["Research & Develop", "Create Angles", "Provide Briefs", "Optimize Creatives", "Work With Brands"]
+}

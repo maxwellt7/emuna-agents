@@ -1,0 +1,10 @@
+{
+  "name": "Creative Director",
+  "role": "designer",
+  "title": "Creative Director",
+  "icon": "wand",
+  "reportsTo": "marketing-manager",
+  "adapterType": "claude_local",
+  "capabilities": "Agency creative strategy, creative brief development, influencer coordination, creative performance tracking, creative team expansion management",
+  "functions": ["Research & Develop", "Create Creative Briefs", "Work With Influencers", "Track Creative Reporting", "Manage Creative Expansion"]
+}

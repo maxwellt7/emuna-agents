@@ -1,0 +1,16 @@
+{
+  "name": "Backend Marketer",
+  "role": "general",
+  "title": "Backend Marketer",
+  "icon": "circuit-board",
+  "reportsTo": "marketing-manager",
+  "adapterType": "claude_local",
+  "capabilities": "Marketing automation flows, backend email/SMS sequences, campaign automation strategy, funnel backend optimization, customer journey mapping for agency clients",
+  "functions": [
+    "Follow Growth Strategy",
+    "Map Out Backend Flows",
+    "Provide Themes for Flows",
+    "Work With Creative/Copy",
+    "Identify Campaigns"
+  ]
+}

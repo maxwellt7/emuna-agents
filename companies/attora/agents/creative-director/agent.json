@@ -1,0 +1,10 @@
+{
+  "name": "Creative Director",
+  "role": "designer",
+  "title": "Creative Director",
+  "icon": "sparkles",
+  "reportsTo": "operations-director",
+  "adapterType": "claude_local",
+  "capabilities": "E-commerce creative strategy, ad angle development, creative brief creation, creative optimization, creative team coordination",
+  "functions": ["Research & Develop", "Create Angles", "Provide Briefs", "Optimize Creatives", "Work With Ops Team"]
+}

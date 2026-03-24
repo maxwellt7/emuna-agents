@@ -1,0 +1,11 @@
+{
+  "name": "Customer Service",
+  "role": "general",
+  "title": "Customer Service Representative",
+  "icon": "message-square",
+  "reportsTo": null,
+  "humanOwner": "Casey Amundson",
+  "adapterType": "claude_local",
+  "capabilities": "Customer ticket management, customer communication, FAQ maintenance, CS process creation, client payment management",
+  "functions": ["Manage Customer Tickets", "Respond To Customers", "Update FAQ", "Create CS Processes", "Manage Client Payments"]
+}

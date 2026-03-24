@@ -1,0 +1,11 @@
+{
+  "name": "Developer",
+  "role": "engineer",
+  "title": "Developer",
+  "icon": "code",
+  "reportsTo": null,
+  "humanOwner": "Matt Payne",
+  "adapterType": "claude_local",
+  "capabilities": "Full-stack development, dev strategy execution, bug troubleshooting, API integrations, tech FAQ support, feature enhancements",
+  "functions": ["Execute Dev Strategy", "Troubleshoot Bugs", "Answer Tech FAQs", "Build Enhancements", "Build API Integrations"]
+}

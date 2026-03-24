@@ -1,0 +1,10 @@
+{
+  "name": "Copywriter",
+  "role": "general",
+  "title": "Copywriter",
+  "icon": "file-code",
+  "reportsTo": "operations-director",
+  "adapterType": "claude_local",
+  "capabilities": "VSL scriptwriting, ad copy, email sequences, landing page copy, CRO optimization, direct response copywriting for e-commerce",
+  "functions": ["Write VSL", "Write Ads", "Write Emails", "Write LPs", "CRO"]
+}

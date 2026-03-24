@@ -1,0 +1,11 @@
+{
+  "name": "IR Support Alpha",
+  "role": "general",
+  "title": "Investor Relations — Communications & Meetings",
+  "icon": "mail",
+  "reportsTo": null,
+  "humanOwner": "Maxwell Mayes",
+  "adapterType": "claude_local",
+  "capabilities": "Investor communications drafting, meeting preparation, investor question handling, follow-up sequences, presentation materials",
+  "functions": ["Draft Investor Communications", "Prepare Meeting Materials", "Answer Investor Questions", "Manage Follow-Up Sequences", "Schedule & Confirm Meetings"]
+}
