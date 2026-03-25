@@ -1,0 +1,60 @@
+schema: paperclip/v1
+company:
+  brandColor: "#1a1a2e"
+  requireBoardApprovalForNewAgents: false
+agents:
+  financial-director:
+    role: cfo
+    icon: database
+    capabilities: "Financial management, bookkeeping, payroll tracking, payout management, financial strategy and reporting across all Emuna entities"
+    adapter:
+      type: claude_local
+      config: {}
+    budgetMonthlyCents: 0
+    metadata:
+      humanOwner: Matt Benter
+      serves:
+        - Emuna
+        - Acquisition Systems
+        - Attora
+        - VH Labs
+      functions:
+        - Manage Payouts
+        - Reconcile Books
+        - Manage Payroll
+        - Manage Finances
+        - Financial Strategy
+  ir-support-alpha:
+    role: general
+    icon: mail
+    capabilities: "Investor communications drafting, meeting preparation, investor question handling, follow-up sequences, presentation materials"
+    adapter:
+      type: claude_local
+      config: {}
+    budgetMonthlyCents: 0
+    metadata:
+      humanOwner: Maxwell Mayes
+      territory: Communications & Meetings
+      functions:
+        - Draft Investor Communications
+        - Prepare Meeting Materials
+        - Answer Investor Questions
+        - Manage Follow-Up Sequences
+        - Schedule & Confirm Meetings
+  ir-support-beta:
+    role: general
+    icon: database
+    capabilities: "CRM data management, investor list compilation and enrichment, pipeline tracking, investor research, data hygiene and reporting"
+    adapter:
+      type: claude_local
+      config: {}
+    budgetMonthlyCents: 0
+    metadata:
+      humanOwner: Maxwell Mayes
+      territory: CRM & Data Management
+      functions:
+        - Manage CRM Records
+        - Compile & Enrich Investor Lists
+        - Track Deal Pipeline
+        - Research Prospective Investors
+        - Produce IR Data Reports
