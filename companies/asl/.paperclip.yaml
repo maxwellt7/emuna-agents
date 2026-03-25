@@ -1,0 +1,37 @@
+schema: paperclip/v1
+company:
+  brandColor: "#16a34a"
+  requireBoardApprovalForNewAgents: false
+agents:
+  creative-director:
+    role: designer
+    icon: lightbulb
+    capabilities: "Performance creative strategy, ad angle development, creative brief writing, creative optimization, brand-specific creative direction for affiliate marketing"
+    adapter:
+      type: claude_local
+      config: {}
+    budgetMonthlyCents: 0
+    metadata:
+      humanOwner: Casey Amundson
+      functions:
+        - Research & Develop
+        - Create Angles
+        - Provide Briefs
+        - Optimize Creatives
+        - Work With Brands
+  tracking-specialist:
+    role: devops
+    icon: target
+    capabilities: "Affiliate tracking setup, tracking link creation, conversion tracking troubleshooting, Boltout integration, QA reporting, cross-platform tracking verification"
+    adapter:
+      type: claude_local
+      config: {}
+    budgetMonthlyCents: 0
+    metadata:
+      humanOwner: Matt Payne
+      functions:
+        - Work With Brands/Affiliates
+        - Create Tracking Links
+        - Troubleshoot Tracking
+        - Work With Boltout
+        - QA Reporting

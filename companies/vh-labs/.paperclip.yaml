@@ -1,0 +1,104 @@
+schema: paperclip/v1
+company:
+  brandColor: "#dc2626"
+  requireBoardApprovalForNewAgents: false
+agents:
+  marketing-manager:
+    role: cmo
+    icon: rocket
+    capabilities: "Marketing team leadership, campaign creation, performance monitoring, growth reporting, marketing strategy optimization for agency clients"
+    adapter:
+      type: claude_local
+      config: {}
+    budgetMonthlyCents: 0
+    metadata:
+      humanOwner: Casey Amundson
+      functions:
+        - LMA Marketing Team
+        - Create Campaigns
+        - Monitor Performance
+        - Provide Reporting
+        - Optimize Growth Strategy
+  creative-director:
+    role: designer
+    icon: wand
+    capabilities: "Agency creative strategy, creative brief development, influencer coordination, creative performance tracking, creative team expansion management"
+    adapter:
+      type: claude_local
+      config: {}
+    budgetMonthlyCents: 0
+    metadata:
+      humanOwner: Casey Amundson
+      reportsTo: marketing-manager
+      functions:
+        - Research & Develop
+        - Create Creative Briefs
+        - Work With Influencers
+        - Track Creative Reporting
+        - Manage Creative Expansion
+  copywriter:
+    role: general
+    icon: file-code
+    capabilities: "Landing page copy, email sequences, VSL scripts, ad copy, CRO optimization for agency clients across multiple verticals"
+    adapter:
+      type: claude_local
+      config: {}
+    budgetMonthlyCents: 0
+    metadata:
+      humanOwner: Casey Amundson
+      reportsTo: marketing-manager
+      functions:
+        - Write Landing Page Copy
+        - Write Email Copy
+        - Write VSL Copy
+        - Write Ad Copy
+        - Perform CRO
+  developer:
+    role: engineer
+    icon: code
+    capabilities: "Full-stack development, dev strategy execution, bug troubleshooting, API integrations, tech FAQ support, feature enhancements"
+    adapter:
+      type: claude_local
+      config: {}
+    budgetMonthlyCents: 0
+    metadata:
+      humanOwner: Matt Payne
+      functions:
+        - Execute Dev Strategy
+        - Troubleshoot Bugs
+        - Answer Tech FAQs
+        - Build Enhancements
+        - Build API Integrations
+  customer-service:
+    role: general
+    icon: message-square
+    capabilities: "Customer ticket management, customer communication, FAQ maintenance, CS process creation, client payment management"
+    adapter:
+      type: claude_local
+      config: {}
+    budgetMonthlyCents: 0
+    metadata:
+      humanOwner: Casey Amundson
+      functions:
+        - Manage Customer Tickets
+        - Respond To Customers
+        - Update FAQ
+        - Create CS Processes
+        - Manage Client Payments
+  backend-marketer:
+    role: general
+    icon: circuit-board
+    capabilities: "Marketing automation flows, backend email/SMS sequences, campaign automation strategy, funnel backend optimization, customer journey mapping for agency clients"
+    adapter:
+      type: claude_local
+      config: {}
+    budgetMonthlyCents: 0
+    metadata:
+      humanOwner: Casey Amundson
+      reportsTo: marketing-manager
+      functions:
+        - Follow Growth Strategy
+        - Map Out Backend Flows
+        - Provide Themes for Flows
+        - Work With Creative/Copy
+        - Identify Campaigns

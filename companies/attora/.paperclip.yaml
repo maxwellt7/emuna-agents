@@ -1,0 +1,72 @@
+schema: paperclip/v1
+company:
+  brandColor: "#7c3aed"
+  requireBoardApprovalForNewAgents: false
+agents:
+  operations-director:
+    role: pm
+    icon: cog
+    capabilities: "Operations management, funnel/offer brief writing, launch strategy creation, concept development, offer validation, market readiness assessment"
+    adapter:
+      type: claude_local
+      config: {}
+    budgetMonthlyCents: 0
+    metadata:
+      humanOwner: Matt Benter
+      functions:
+        - LMA Operations Team
+        - Write Funnel/Offer Briefs
+        - Create Launch Strategy
+        - Create Concepts
+        - Offer Validation & Market Readiness
+  creative-director:
+    role: designer
+    icon: sparkles
+    capabilities: "E-commerce creative strategy, ad angle development, creative brief creation, creative optimization, creative team coordination"
+    adapter:
+      type: claude_local
+      config: {}
+    budgetMonthlyCents: 0
+    metadata:
+      humanOwner: Maxwell Mayes
+      reportsTo: operations-director
+      functions:
+        - Research & Develop
+        - Create Angles
+        - Provide Briefs
+        - Optimize Creatives
+        - Work With Ops Team
+  copywriter:
+    role: general
+    icon: file-code
+    capabilities: "VSL scriptwriting, ad copy, email sequences, landing page copy, CRO optimization, direct response copywriting for e-commerce"
+    adapter:
+      type: claude_local
+      config: {}
+    budgetMonthlyCents: 0
+    metadata:
+      humanOwner: Maxwell Mayes
+      reportsTo: operations-director
+      functions:
+        - Write VSL
+        - Write Ads
+        - Write Emails
+        - Write LPs
+        - CRO
+  quality-control:
+    role: qa
+    icon: shield
+    capabilities: "Creative asset review, performance stat analysis, deadline management, quality standards enforcement, deliverable verification"
+    adapter:
+      type: claude_local
+      config: {}
+    budgetMonthlyCents: 0
+    metadata:
+      humanOwner: Matt Benter
+      reportsTo: creative-director
+      functions:
+        - Review Videos
+        - Review Statics
+        - Report/Edit Stats
+        - Manage Project Deadlines
+        - Hit Deadlines
